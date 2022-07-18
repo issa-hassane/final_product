@@ -1,0 +1,48 @@
+body {
+  background-color: #fbfbfb;
+}
+
+header {
+  background-image: linear-gradient(to bottom, rgba(157, 14, 14, 0), #4f0707),
+    url("./Assets/image.png");
+  max-width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  width: 15rem;
+}
+
+.card {
+  padding: 0 34px 0 0;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  width: 31%;
+}
+.login-btn {
+  color: #fff;
+}
+.login-btn:hover {
+  color: rgb(27, 27, 27);
+}
+.title-color {
+  color: #192f60;
+}
+.card-img {
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+}
+
+@media (max-width: 992px) {
+  .card {
+    width: 48%;
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
